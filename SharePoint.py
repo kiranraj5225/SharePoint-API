@@ -22,7 +22,7 @@ class Configuration:
         self.origin_sp_client_id = origin_sp_client_id
         self.origin_sp_client_secret = origin_sp_client_secret
 
-class SP_API:
+class SharePoint:
 
     URL_SUFFIX = "/_api/web/"
 
@@ -60,6 +60,7 @@ class SP_API:
                                                  "Authorization": "Bearer {0}".format(details.get("access_token")),
                             })
                     print("Login Success!")
+                    return True
             else:
                 raise ConnError("Error! Unable to login.. {0}".format(response.text))
         except TypeError as te:
