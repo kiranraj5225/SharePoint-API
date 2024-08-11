@@ -10,7 +10,9 @@
 
 ###
 
-<p align="left">✨ You need to create the service principle with App Registration in Azure AD.<br>✨ Add the required delegate SharePoint  - Selected Site permission.<br>✨ Grant admin consent<br>✨ For step by step instruction, You may go through this blogpost: [[https://d365demystified.com/2022/08/09/authenticate-dataverse-connector-using-service-principal-in-a-power-automate-flow](https://www.c-sharpcorner.com/article/setting-up-sharepoint-app-only-principal-with-app-registration/)](https://www.c-sharpcorner.com/article/setting-up-sharepoint-app-only-principal-with-app-registration/)/</p>
+<p align="left">✨ You need to create the service principle with App Registration in Azure AD.<br>✨ Add the required delegate SharePoint  - Selected Site permission.<br>✨ Grant admin consent<br>✨ For step by step instruction, You may go through this blogpost:
+  https://www.c-sharpcorner.com/article/setting-up-sharepoint-app-only-principal-with-app-registration/
+</p>
 
 ###
 
