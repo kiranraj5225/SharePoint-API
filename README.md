@@ -19,7 +19,7 @@
 ```python
 from SharePoint import SharePoint
 
-sp = SP_API(config={
+sp = SharePoint(config={
   "origin_tenant_id":"tenat_id",
   "origin_sp_host":"sharepoint_host_name",
   "origin_sp_host_type":"SP",
