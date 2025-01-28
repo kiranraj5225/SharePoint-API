@@ -220,8 +220,8 @@ class SharePoint:
                 "Content-Type": "application/json;odata=verbose"
             })
             if file_info_response.status_code == 200:
-                response = file_info_response.json()
-                return response["d"]["results"]
+                response = file_info_response.content
+                return response
             elif file_info_response.status_code == 404:
                 return "ListNotFound"
             else:
